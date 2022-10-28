@@ -1,0 +1,72 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url(CursedTimerUlil.ttf);
+}
+body {
+    margin: 0;
+    background-color: #374151;
+}
+
+.container {                /*Overall division*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.home-class, .guest-class{  /*2 Major dividing divs*/
+    height: 100%;
+    width: 100%;
+}
+.home-heading, .guest-heading{
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+#home-count, #guest-count{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #080001;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#home-score, #guest-score{
+    font-family: 'CursedTimerUlil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+.home-1,.home-2, .home-3, .guest-1, .guest-2, .guest-3{
+    height: 5%;
+    width: 6%;
+    background-color: #374151;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'CursedTimerUlil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+#new-game{
+background-color: #374151;
+color: white;
+font-size: 20px;
+border-radius: 15px;
+margin-top: 10px;
+margin-right: 10px;
+}
